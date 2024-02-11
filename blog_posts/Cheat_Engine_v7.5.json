@@ -1,0 +1,12 @@
+{
+  "id": 1002,
+  "title": "Cheat Engine v7.5",
+  "text": "\nUsing the Cheat Engine is the easiest way to defeat a difficult boss, turn the treasury into an inexhaustible source of money, increase the speed and frequency of fire, in a word, to get any necessary advantage. All the parameters encountered in the game are represented in the form of HEX-codes that can be changed. To get the advantage you need to find the line in the base and set the optimal value. Of course, to do it manually is difficult, but the program Cheat Engine repeatedly simplifies the difficult task and allows you to cope with it in a couple of minutes.\n\nThe parameter is searched by the value that the user enters in a special field, such as the amount of money or a certain resource. Then the HEX-code is found by the method of exclusion from the selected by the system, until only one line remains. Of course, you can take a risk and change any of the found values, but in this case there is a risk of \"breaking\" the game. The program works in 99% of single-player video games and allows getting absolutely any advantage. In online games Cheat Engine does not always work because of the built-in protection. Using the program online is recommended on another account because of the risk of getting banned, but it is better in online games this program should not be used.\nHow to open rar, zip, 7-Zip cheat?\nHow to open .DLL cheat?",
+  "tags": "Cheat Engine Tables for Games - Cheat Engine",
+  "image": "https://cheater.fun/uploads/posts/2022-04/cheat-engine-v7_4-download.webp",
+  "creator": "cheatengine.org",
+  "link": "http://adfoc.us/850712101606867",
+  "time": "23.01.24",
+  "status": "Live",
+  "version": "v7.5 for Windows"
+}

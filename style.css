@@ -1,0 +1,248 @@
+body {
+    font-family: Courier, monospace;
+    margin: 20px;
+    background-color: #f2f2f2;
+    color: #333;
+    text-align: center; /* Center text in the body */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #2ecc71; /* Green */
+    color: #fff; /* White */
+}
+
+h1{
+    font-weight: bold; /* Make the title bold */
+    color: #fff; /* White */
+    margin: 0;
+     /* Remove default margin */
+}
+
+
+h2 {
+    color: #27ae60; /* Dark green for h2 */
+    margin: 0;
+    text-align: center;
+    margin-bottom: 10px;/* Remove default margin */
+}
+
+
+nav {
+    margin-left: auto; /* Moves the navigation to the right */
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; /* White */
+    font-weight: bold;
+    margin-right: 20px;
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+nav a:hover {
+    color: #27ae60; /* Darker green on hover */
+}
+
+main {
+    text-align: left; /* Align main content to the left */
+}
+
+section {
+    background-color: #fff; /* White */
+    padding: 20px;
+    margin: 20px 0; /* Add some vertical margin for spacing */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 768px) {
+    section {
+        max-width: 800px; /* Set a maximum width for larger screens */
+        margin: 20px auto; /* Center the section horizontally with auto margins */
+    }
+}
+p {
+    padding: 5px;
+    background-color: #ffffff; /* Green */
+    color: #333; /* White */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 12px; /* Set the font size for the footer */
+}
+/* Your existing styles... */
+
+#blogForm {
+    max-width: 600px;
+    font-family: Courier, monospace;
+    margin: 0 auto;
+    text-align: center; /* Center the form content */
+}
+
+#blogForm label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+#blogForm input[type="text"],
+#blogForm textarea,
+#blogForm input[type="file"] {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Style for the input group */
+#blogForm .input-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+/* Arrange Tags and Creator input fields on the same line */
+#blogForm .input-half {
+    width: 48%; /* Adjust the width as needed */
+    box-sizing: border-box;
+}
+
+#blogForm #blogTags {
+    float: left; /* Align Tags to the left */
+}
+
+#blogForm #blogCreator {
+    float: right; /* Align Creator to the right */
+}
+
+#blogForm input[type="file"] {
+    clear: both; /* Clear the floats for the file input */
+    margin-top: 0.5em;
+}
+
+#blogForm input[type="submit"] {
+    display: inline-block; /* Set the button to be an inline block */
+    background-color: #4caf50; /* Green */
+    color: #fff;
+    padding: 0.5em 1em;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+#blogForm input[type="submit"]:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Position the button above the footer */
+#blogForm input[type="submit"] {
+    position: relative;
+    bottom: 0;
+}
+
+/* Add styling for individual blog posts */
+.blogPost {
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 10px;
+    display: flex;
+}
+
+.blogImage {
+    width: 250px;
+    height: 125px;
+    margin-right: 10px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+/* Style for blog post content (title, creator, time, statue) */
+.blogContent {
+    flex-grow: 1;
+}
+
+.blogTitle {
+    font-size: 20px;
+    font-weight: 900px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.blogCreator {
+    font-size: 12px;
+    color: #888;
+    margin-bottom: 0px;
+    margin-top : 12pxs;
+
+}
+.blogTime,
+.blogStatue {
+    font-size: 12px;
+    font-weight:bold;
+    color: #888;
+    margin-bottom: 1px;
+    margin-top : 1px; /* Adjust the margin to reduce space between lines */
+}
+
+/* style.css */
+
+/* Add a style for normal links */
+a {
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Set the default color */
+    transition: color 0.3s; /* Add a smooth color transition effect */
+}
+
+/* Change the link color when the cursor is on it */
+a:hover {
+    color: #1d9605; /* Change the color on hover */
+}
+
+/* Add a style for blog titles */
+.blogTitle a {
+    text-decoration: none; /* Remove underline for blog titles */
+    color: #333; /* Set the default color for blog titles */
+}
+
+/* Change the color of blog titles when the cursor is on them */
+.blogTitle a:hover {
+    color: #00c3d8; /* Change the color on hover for blog titles */
+}
+.Header 
+    {
+        font-weight: bold; /* Make the title bold */
+        color: #fff; /* White */
+        margin-top: 0;
+         /* Remove default margin */
+    }
+
+    .pagination {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .pagination a {
+        color: #089116;
+        padding: 8px 16px;
+        text-decoration: none;
+        border: 1px solid #0c9528;
+        margin-right: 3px;
+        border-radius: 4px;
+        transition: background-color 0.3s;
+    }
+
+    .pagination a:hover {
+        background-color: #0c942b;
+        color: #fff;
+    }
+
+    .pagination .active {
+        background-color: #007BFF;
+        color: #fff;
+    }
